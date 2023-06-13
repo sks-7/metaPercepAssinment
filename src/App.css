@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* // css for navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* border-bottom: 1px solid black; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contant {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contant button {
+  padding: 5px 20px;
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+}
+
+/* // css fot top card content */
+
+.TopCard {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-color: rgb(81, 161, 195);
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.TopCard h1 {
+  text-align: center;
+  color: white;
+}
+
+.TopCard p {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.TopCard button {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.mid_clas {
+  width: 80%;
+  /* border: 1px solid; */
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.mid_clas h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.mid_clas p {
+  color: grey;
+}
+
+/* card css */
+
+.Card {
+  width: 80%;
+  /* border: 1px solid red; */
+  height: auto;
+  margin-top: 20px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  margin-top: 20px;
+  background-color: rgb(228, 227, 227);
+}
+
+.Card div {
+  height: auto;
+  width: 80%;
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Card div h1 {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.Card div h1 {
+  margin-bottom: 10px;
+}
+
+.Card div p {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.Card div img {
+  width: 100%;
+}
+.Card button {
+  padding-left: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.footer {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.blue{
+
+  color: blue;
+}
